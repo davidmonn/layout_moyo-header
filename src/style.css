@@ -1,110 +1,5 @@
 html {
   --font-fam: 'Roboto', sans-serif;
-  --text-color: blue;
-}
-
-body {
-  margin: 0;
-  font-family: var(--font-fam);
-  background-color: #ccc;
-}
-
-/* HEADER */
-header {
-  display: flex;
-  width: 100%;
-  height: 60px;
-  position: relative;
-  box-sizing: border-box;
-  font-family: var(--font-fam);
-  font-weight: 500;
-  background-color: #fff;
-}
-
-/* LOGO */
-.logo {
-  position: absolute;
-  top: 50%;
-  left: 50px;
-  transform: translateY(-50%);
-  width: 40px;
-  height: 40px;
-}
-
-/* NAV */
-.nav {
-  display: flex;
-  width: 100%;
-  padding-right: 60px;
-  box-sizing: border-box;
-}
-
-.nav .list {
-  display: flex;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.nav .list .menu {
-  list-style: none;
-  margin-left: 20px;
-}
-
-.nav .list .menu:first-child {
-  margin-left: 0;
-}
-
-.nav .list .menu .link {
-  position: relative;
-
-  display: flex;
-  align-items: center;
-
-  height: 60px;
-
-  font-size: 12px;
-  font-weight: 500;
-  text-transform: uppercase;
-  text-decoration: none;
-
-  color: #000;
-}
-
-.is-active {
-  color: var(--text-color);
-}
-
-.is-active::after {
-  content: '';
-
-  position: absolute;
-  left: 0;
-  bottom: 0;
-
-  width: 100%;
-  height: 4px;
-
-  background-color: var(--text-color);
-  border-radius: 8px;
-}
-
-.list .menu .link:hover {
-  color: var(--text-color);
-}
-
-/* MEDIA QUERY */
-@media screen and (min-width: 1024px) {
-  header {
-    width: 1024px;
-    margin: 0 auto;
-  }
-
-  .nav .list {
-    gap: 20px;html {
-  --font-fam: 'Roboto', sans-serif;
   --text-color: #00acdc;
 }
 
@@ -131,14 +26,11 @@ header {
   background-color: #fff;
 }
 
-/* LOGO */
 .logo {
   position: absolute;
   left: 50px;
   top: 50%;
-
   transform: translateY(-50%);
-
   width: 40px;
   height: 40px;
 }
@@ -166,9 +58,9 @@ header {
   margin-left: 0;
 }
 
+/* LINK */
 .nav .list .menu .link {
   position: relative;
-
   display: flex;
   align-items: center;
 
@@ -182,14 +74,12 @@ header {
   color: #000;
 }
 
-/* ACTIVE LINK */
 .is-active {
   color: var(--text-color);
 }
 
 .is-active::after {
   content: '';
-
   position: absolute;
   left: 0;
   bottom: 0;
@@ -201,9 +91,6 @@ header {
   border-radius: 8px;
 }
 
-/* HOVER */
 .nav .list .menu .link:hover {
   color: var(--text-color);
-}
-  }
 }
