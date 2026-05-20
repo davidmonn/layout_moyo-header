@@ -46,10 +46,10 @@ header {
 
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .nav .list .menu {
-  list-style: none;
   margin-left: 20px;
 }
 
