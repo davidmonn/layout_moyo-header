@@ -1,12 +1,10 @@
 html {
   --font-fam: 'Roboto', sans-serif;
-  --text-color: #00acdc;
+  --text-color: blue;
 }
 
 body {
   margin: 0;
-  font-family: var(--font-fam);
-  background-color: #ccc;
 }
 
 /* HEADER */
