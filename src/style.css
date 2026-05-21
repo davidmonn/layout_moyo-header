@@ -1,5 +1,5 @@
 html {
-  --text-color: blue;
+  --text-color: #26bbe9;
 }
 
 body {
@@ -25,7 +25,7 @@ header {
   background-color: #fff;
 }
 
-.logo {
+.link-logo {
   position: absolute;
   left: 50px;
   top: 50%;
@@ -48,7 +48,6 @@ header {
   padding: 0;
   list-style-type: none;
 }
-
 
 .nav .list .menu {
   margin-left: 20px;
