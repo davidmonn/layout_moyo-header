@@ -18,6 +18,11 @@ body {
   padding: 0 50px;
 }
 
+.header:first-child {
+  margin: 0;
+}
+
+
 .logo {
   display: flex;
 }
